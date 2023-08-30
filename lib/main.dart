@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         ],
         child: MaterialApp(
           title: 'Pokedex',
-          initialRoute: MainWidget.routeName,
+          initialRoute: LoginScreen.routeName,
           routes: {
             MainWidget.routeName: (context) => const MainWidget(),
             PokemonDetailScreen.routeName:(context) => const PokemonDetailScreen(),
