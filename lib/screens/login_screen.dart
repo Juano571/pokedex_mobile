@@ -58,10 +58,10 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
             ),
             ElevatedButton(
-              onPressed: () {
+              onPressed: () async {
                 loginProvider.loginWithEmailPassword(
                     _emailController.text, _passwordController.text);
-                if (loginProvider.isAuthenticated) {
+                if (loginProvider.user != null) {
                   Navigator.pushNamed(context, MainWidget.routeName);
                 }
               },

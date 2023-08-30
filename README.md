@@ -16,4 +16,7 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 ## Imagenes
-## ![Imagen 1] (url)
+![Imagen 1](https://github.com/Juano571/pokedex_mobile/assets/78981974/1bf4224c-5185-4275-b909-9aa0d58d514c)
+
+![Image 2](https://github.com/Juano571/pokedex_mobile/assets/78981974/9eb8513d-976d-427b-9dd6-11c405a90cdd)
+
